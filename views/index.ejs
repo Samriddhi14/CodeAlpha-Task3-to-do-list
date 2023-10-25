@@ -1,0 +1,39 @@
+<%- include('partials/header.ejs') %>
+    <br>
+    <div class=" timebox">
+        <div class ="textbox">
+            <p><%= formatDate(currentDate) %></p>
+        </div>
+        
+    </div><br>
+    <div class="bodies">
+        <div class="text">
+        <h3>Hello Mate!<br>
+            Please add your tasks.</h3>
+            <form action="/" method="post">
+                <input type="text" name="ektask">
+                <button type="submit" value="OK">➕</button>
+            </form>
+            <p>
+                <% for (const task of thetasks) { %>
+                    <div>
+                        <input type="checkbox" id="myCheckbox">
+                        <span>
+                        <%= task %>
+                        </span>
+                    </div>
+                    <br>
+                    <hr>
+                <% } %>
+        
+            </p>
+        </div>
+        
+        
+    </div>
+        
+</main>
+
+</body>
+
+</html>

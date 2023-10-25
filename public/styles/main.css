@@ -1,0 +1,63 @@
+html, body{
+    margin: 0;
+    background-color: #2D132C;
+    height: 100vh;
+}
+
+
+hr{
+    border: none; /* Remove the default border */
+    border-top: 1px solid #CBF1F5;
+}
+.right-links{
+    float: right;
+    padding: 30px;
+}
+
+h1{
+    font-family: 'Elephant';
+}
+
+.bodies{
+    font-family: 'Merriweather', serif;
+    color: #FFE3D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    text-align: left;
+    border: 5px solid #FFE3D8;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+a {
+    color: #FFE3D8; /* Set the color to blue (you can use any color you prefer) */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.timebox{
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+
+}
+
+.textbox{
+    border: 5px solid #FFE3D8; 
+    border-radius: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #FFE5E5;
+}
+
+
